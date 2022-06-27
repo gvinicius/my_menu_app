@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'menus/menus'
+    get '/menus' => 'menus#menus'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

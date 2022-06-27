@@ -1,24 +1,15 @@
-# README
+# My Menu App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.7.1
 
-Things you may want to cover:
+* System dependencies: sqlite.
 
-* Ruby version
+* Configuration: `bundle exec rails bundle install`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
+* Database setup: `RAILS_ENV=development bundle exec rails db:create db:migrate`
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+* Test Database setup: `RAILS_ENV=test bundle exec rails db:create db:migrate`
 
-* Deployment instructions
-
-* ...
+* Run test: `RAILS_ENV=test bundle exec rspec`
